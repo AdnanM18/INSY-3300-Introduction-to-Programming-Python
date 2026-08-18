@@ -1,20 +1,30 @@
-# INSY 3300 – Introduction to Programming (Python)
+# INSY 3300 – Introduction to Programming | Python
 
-Coursework portfolio from **INSY 3300 – Introduction to Programming**.
+Python coursework and programming projects completed in **INSY 3300 – Introduction to Programming** at The University of Texas at Arlington.
 
-The recovered assignments in this repository were written in **Python**, not Java.  
-The original Jupyter notebooks identify the language as Python 3.
+This repository demonstrates foundational programming skills through interactive Python programs involving functions, control flow, input validation, exception handling, file operations, modules, and core data structures.
 
-This repository organizes the recovered code into clean `.py` files so each program
-can be opened and run directly.
+## Technologies & Concepts
+
+- Python 3
+- Functions and modular programming
+- Conditional logic
+- `for` and `while` loops
+- Input validation
+- Exception handling
+- File input/output
+- Lists and list comprehensions
+- Dictionaries
+- Sets and set operations
+- Random-number generation
+- Basic statistics and calculations
+- String processing
 
 ## Repository Structure
 
 ```text
 INSY-3300-Introduction-to-Programming-Python/
 ├── README.md
-├── SOURCE_NOTES.md
-├── .gitignore
 ├── assignment-01/
 │   ├── subject_popularity.py
 │   ├── temperature_validation.py
@@ -33,67 +43,66 @@ INSY-3300-Introduction-to-Programming-Python/
     └── dice_roll_simulator.py
 ```
 
-## Assignment 1
+## Assignment 1 – Programming Fundamentals
 
-### Subject Popularity
-Calculates the percentage of science and arts students and reports which subject is
-more popular.
+### Subject Popularity Calculator
+Calculates the percentage of students studying science and arts and determines which subject is more popular.
 
-### Temperature Validation
+**Concepts:** functions, user input, arithmetic, conditional statements.
+
+### Temperature Validation & Conversion
 Validates a Celsius temperature, converts it to Fahrenheit, and handles invalid input.
 
+**Concepts:** loops, input validation, type conversion, arithmetic.
+
 ### Beverage Recommender
-Uses functions and conditional logic to recommend beverages based on meal type.
+Recommends a beverage based on the user's meal choice and allows repeated requests.
+
+**Concepts:** functions, strings, conditional logic, loops.
 
 ### Even/Odd Calculator
 Squares even numbers and cubes odd numbers within a specified range.
 
-## Assignment 2
+**Concepts:** functions, modulo arithmetic, loops, validation.
+
+## Assignment 2 – Modules, Data Processing & File I/O
 
 ### Multiplication Quiz
-Generates random multiplication questions, checks answers, and uses exception handling.
+Generates random multiplication questions, validates answers, and allows the user to continue playing.
+
+**Concepts:** functions, `random`, exception handling, program structure.
 
 ### Temperature Converter Module
-Demonstrates modular programming by storing conversion functions in
-`TemperatureConverter.py` and importing them into `temperature_app.py`.
+Stores Celsius/Fahrenheit conversion functions in `TemperatureConverter.py` and imports them into a separate application.
+
+**Concepts:** modules, imports, functions, exception handling.
 
 ### List Processing
-Uses lists, slicing, insertion, list comprehensions, a prime-number helper function,
-and nested data structures.
+Processes numeric data using slicing, insertion, list comprehensions, a prime-number helper function, and nested lists.
+
+**Concepts:** lists, loops, comprehensions, helper functions, slicing.
 
 ### File Statistics
-Writes numeric data to a text file, reads it back, calculates summary statistics,
-and appends the results.
+Writes numeric data to a text file, reads the values back, calculates summary statistics, and appends the results.
 
-## Assignment 3
+**Concepts:** file I/O, exception handling, aggregation, numeric processing.
+
+## Assignment 3 – Dictionaries, Sets & Simulation
 
 ### Fruit Color Quiz
-Uses a dictionary to quiz the user on fruit colors and tracks correct/incorrect answers.
+Uses a dictionary to quiz the user on fruit colors and tracks correct and incorrect responses.
+
+**Concepts:** dictionaries, loops, string normalization, counters.
 
 ### Library Set Analysis
-Uses Python set operations including intersection, difference, union, subset checks,
-symmetric difference, and sorting.
+Analyzes book categories using intersections, differences, unions, subset checks, symmetric differences, and sorting.
+
+**Concepts:** sets, set operations, sorting, iteration.
 
 ### Dice Roll Simulator
-Simulates 500 die rolls, stores frequencies in a dictionary, calculates totals, and
-allows the user to query a die face.
+Simulates 500 six-sided die rolls, stores outcome frequencies, calculates totals, and lets the user query a die face.
 
-## Skills Demonstrated
-
-- Python 3
-- Functions
-- Conditional logic
-- `for` and `while` loops
-- Input validation
-- Exception handling
-- Modules and imports
-- File input/output
-- Lists and list comprehensions
-- Dictionaries
-- Sets and set operations
-- Random-number generation
-- Basic statistics and calculations
-- String handling
+**Concepts:** random-number generation, dictionaries, list comprehensions, aggregation.
 
 ## Running the Programs
 
@@ -105,16 +114,13 @@ Example:
 python assignment-02/multiplication_quiz.py
 ```
 
-For the temperature module example, run:
+For the temperature module example:
 
 ```bash
 cd assignment-02
 python temperature_app.py
 ```
 
-## Portfolio Note
+## What This Repository Demonstrates
 
-These files are organized from recovered university coursework. The goal is to
-preserve the submitted programming logic while presenting it in a clean GitHub layout.
-Only minor portability/formatting changes were made, such as replacing a personal
-Windows file path with a relative file path.
+This coursework shows my foundation in Python programming and my ability to break problems into logical steps, validate user input, work with common data structures, organize reusable code, handle errors, and process data from files.
